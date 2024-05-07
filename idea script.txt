@@ -1,0 +1,12 @@
+shop
+men
+women 
+kids
+login
+sign up
+cart
+
+popular in woman 
+banner
+new collections
+subscription box
