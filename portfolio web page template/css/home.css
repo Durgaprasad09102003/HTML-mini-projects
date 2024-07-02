@@ -1,0 +1,356 @@
+/*
+Dark Gray (Text/Main Elements): #444444
+White (Background/Main Text): #FFFFFF
+Light Beige (Background/Accent): #E6DACE
+Steel Blue (Accent): #4682B4
+Soft Coral (Accent): #FF6F61
+*/
+
+@font-face {
+  font-family: NAME;
+  src: url(../fonts/qwigley/Qwigley-Regular.ttf);
+}
+
+@font-face {
+  font-family: primer print bold;
+  src: url(../fonts/primer\ print\ bold.otf);
+}
+
+@font-face {
+  font-family: primer print;
+  src: url(../fonts/primer\ print.otf);
+}
+
+@font-face {
+  font-family: odin rounded;
+  src: url(../fonts/Odin\ Rounded\ -\ Bold.otf);
+}
+
+body{
+  background:white;
+  height:100vh;
+  width:100vw;
+  object-fit: cover;
+  align-items: center;
+  overflow: hidden;
+  margin: none;
+}
+
+.header{
+  height:10vh;
+width:100vw;
+position: absolute;
+left:0;
+top:0;
+background-color: white;
+z-index: 1;
+
+}
+
+.head_label{
+  width:400px;
+height:20px;
+background-color: transparent;
+display:flex;
+justify-content: space-between;
+position: absolute;
+right:50px;
+bottom:20%;
+}
+
+.head_label label{
+font-family: Calibri;
+cursor: pointer;
+}
+
+.left_head{
+  width:310px;
+  height:15px;
+position:absolute;
+left:100px;
+top:40%;
+justify-content: flex-start;
+}
+
+.left_head #name{
+font-family: odin rounded;
+letter-spacing: 0.5px;
+}
+
+.left_head #role{
+font-family: primer print;
+letter-spacing: 1.2px;
+text-transform:uppercase;
+
+}
+
+input[type="checkbox"] {
+        display: none;
+      }
+
+.custom-checkbox {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background-color: #3498db; 
+      border: 1px solid #3498db;
+      cursor: text;
+    }
+    input[type="checkbox"]:checked + .custom-checkbox {
+      background-color: #0052fc;
+      border-color: #0052fc;
+    }
+
+.design{
+  height:100vh;
+width:40vw;
+position: absolute;
+left:0;
+top:0;
+background-color: #e6dace;
+}
+
+#align_main{
+align-items: center;
+position: absolute;
+}
+
+.mainbody {
+  height: 440px;
+  width: 650px;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -53%);
+  background-color: white;
+  z-index: 1;
+  box-shadow: -10px 0px 25px -20px rgb(138, 138, 138);
+}
+
+
+.introbody{
+height:90%;
+width:45%;
+position: absolute;
+left:0;
+top:0;
+background-color: #e6dace;
+z-index: 1;
+align-items: center;
+text-align: center;
+
+}
+
+.introbody h2{
+  font-family: odin rounded;
+color:black;
+  position: relative;
+  top:50%;
+}
+
+#name_line{
+  background-color:#0015ff;
+  width:15%;
+  height:2px;
+  border:none;
+position:absolute;
+  top:72%;
+  left:42.5%;
+}
+
+#domain{
+  font-family: primer print bold;
+color:black;
+  position: relative;
+  top:55.5%;
+letter-spacing: 3px;
+}
+
+#profile_pic{
+  height:150px;
+  width:150px;
+  border-radius: 50%;
+  position:absolute;
+  top:14%;
+  left:24%;
+  box-shadow: 1px 1px 5px rgb(138, 138, 138);
+ filter: brightness(115%);
+}
+
+.accounts {
+  display:flex;
+align-items:baseline;
+ width:100px;
+height: 25px;
+position: absolute;
+bottom:5px;
+left:15%;
+justify-content: space-between;
+}
+
+.accounts img{
+  width:15px;
+cursor: pointer;
+}
+
+.accounts img:hover{
+  background-color: rgb(240, 240, 240);
+  box-shadow: 1px 1px 3px grey;
+}
+
+.content_block{
+  width:55%;
+  height:100%;
+  position: absolute;
+  left:45%;
+}
+
+#hello{
+width:fit-content;
+height:fit-content;
+  font-size: 65px;
+font-family: odin rounded;
+position:absolute;
+  left:10%;
+top:-5%;
+}
+
+#iam{
+font-size: 18px;
+font-family: primer print bold;
+position:absolute;
+left:10%;
+top:23%;
+}
+
+#resume_button{
+border-radius: 25px;
+border:none;
+height:25px;
+width:100px;
+background-color: #0052fc;
+position:absolute;
+top:38%;
+left:10%;
+font-family: odin rounded;
+font-size:15px;
+color:whitesmoke;
+cursor: pointer;
+box-shadow: 2px 2px 5px grey;
+}
+
+#resume_button:hover{
+background-color: #0040c0;
+}
+
+#Project_button{
+border-radius: 25px;
+border:2.5px solid black;
+height:25px;
+width:100px;
+background-color:whitesmoke;
+position:absolute;
+top:38%;
+left:45%;
+font-family: odin rounded;
+font-size:15px;
+color:black;
+cursor: pointer;
+box-shadow: 1px 1px 5px grey;
+}
+
+#Project_button:hover{
+background-color:rgb(230, 230, 230);
+}
+
+#para{
+font-family:primer print;
+font-size:15px;
+padding:10%;
+position:absolute;
+top:50%;
+}
+
+.footer{
+  height:12vh;
+width:100vw;
+position: absolute;
+left:0;
+bottom:0;
+background-color: white;
+z-index: 1;
+}
+
+.left_foot{
+  width:150px;
+  height:100px;
+  font-family:primer print bold;
+  justify-content: space-between;
+  position:absolute;
+  top:30%;
+  left:50px;
+}
+
+.left_foot p{
+  font-size: 12px;
+  color:black;
+}
+
+.call{
+  width:100px;
+  height:100px;
+  font-family:primer print bold;
+  justify-content: space-between;
+  position:absolute;
+  top:10%;
+  right:300px;
+text-align: center;
+}
+
+.call p{
+  font-size: 12px;
+  color:black;
+}
+
+.MailID{
+  width:100px;
+  height:100px;
+  font-family:primer print bold;
+  justify-content: space-between;
+  position:absolute;
+  top:10%;
+  right:200px;
+text-align: center;
+}
+
+.MailID p{
+  font-size: 12px;
+  color:black;
+}
+
+.Follow{
+  width:100px;
+  height:100px;
+  font-family:primer print bold;
+  justify-content: space-between;
+  position:absolute;
+  top:10%;
+  right:30px;
+text-align: center;
+display:flex;
+}
+
+.Follow p{
+  font-size: 12px;
+  color:black;
+}
+
+.Follow img{
+  width:10px;
+cursor: pointer;
+}
+
+.Follow img:hover{
+  background-color: rgb(240, 240, 240);
+  box-shadow: 1px 1px 3px grey;
+}
