@@ -18,7 +18,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
-    position: fixed;
 }
 
 .upper-box {
