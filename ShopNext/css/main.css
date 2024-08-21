@@ -8,20 +8,41 @@ body {
     margin:0;
     padding:0;
     overflow-x: hidden;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100vw;
 }
 
 .Container {
     width: 100vw;
     height: max-content;
-    justify-content: center;
-    align-items: center;
-    display: flex;
     flex-direction: column;
     background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    display: none;
 }
 
+
+@media screen and (min-width: 1275px) {
+    .hiddentext{
+        display: contents;
+    }
+}
+
+@media screen and (min-width: 1275px) {
+    .hiddentext{
+        display: none;
+    }
+
+    .Container {
+        display: flex;
+    }
+    
 .upper-box {
-    width: 90vw;
+    width: 90%;
     height: 55vh;
     background-color: #fbf7ed;
 }
@@ -460,4 +481,7 @@ body {
 .socialmedia img{
     height:20px;
     padding-left: 20px;
+}
+
+
 }
